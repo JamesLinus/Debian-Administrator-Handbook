@@ -1,0 +1,215 @@
+# Dmitry Mikhirev <mikhirev@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2014-01-31T10:09:32\n"
+"PO-Revision-Date: 2014-01-10T09:33:06\n"
+"Last-Translator: Dmitry Mikhirev <mikhirev@gmail.com>\n"
+"Language-Team: Russian <debian-handbook-ru@googlegroups.com>\n"
+"Language: ru-RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-publican; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.5-dev\n"
+
+msgid "Falcot Corp"
+msgstr "Falcot Corp"
+
+msgid "SMB"
+msgstr "SMB"
+
+msgid "Strong Growth"
+msgstr "Сильный рост"
+
+msgid "Master Plan"
+msgstr "Генеральный план"
+
+msgid "Migration"
+msgstr "Миграция"
+
+msgid "Cost Reduction"
+msgstr "Снижение стоимости"
+
+msgid "Presenting the Case Study"
+msgstr "Представляя тематическое исследование"
+
+msgid "In the context of this book, you are the system administrator of a growing small business. The time has come for you to redefine the information systems master plan for the coming year in collaboration with your directors. You choose to progressively migrate to Debian, both for practical and economical reasons. Let's see in more detail what's in store for you…"
+msgstr "В контексте этой книги вы являетесь системным администратором растущего малого бизнеса. Наступило время, чтобы переопределить генеральный план информационных систем на предстоящий год в сотрудничестве с вашими директорами. По практическим и экономическим причинам для постепенного перехода вы выбираете Debian. Давайте посмотрим более подробно что есть для вас в запасе…"
+
+msgid "We have envisioned this case study to approach all modern information system services currently used in a medium sized company. After reading this book, you will have all of the elements necessary to install Debian on your servers and fly on your own wings. You will also learn how to efficiently find information in the event of difficulties."
+msgstr "Мы предусмотрели это тематическое исследование чтобы охватить все современные информационные системы в настоящее время используемые в компаниях среднего размера. После прочтения этой книги, вы будете иметь все элементы, необходимые для установки Debian на ваших серверах и летать на собственных крыльях. Вы также узнаете, как эффективно найти информацию в случае возникновения трудностей."
+
+msgid "Fast Growing IT Needs"
+msgstr "Быстро растущие потребности"
+
+msgid "Falcot Corp is a manufacturer of high quality audio equipment. The company is growing strongly, and has two facilities, one in Saint-Étienne, and another in Montpellier. The former has around 150 employees; it hosts a factory for the manufacturing of speakers, a design lab, and all administrative office. The Montpellier site is smaller, with only about 50 workers, and produces amplifiers."
+msgstr "Falcot Corp является производителем высококачественного аудио оборудования. Компания растет и имеет два филиала, один в Сент-Этьен, а другой в Монпелье. В первом работает около 150 сотрудников; он включает фабрику для изготовления динамиков, лабораторию дизайна и все административные офисы. Филиал в Монпелье поменьше, в нём около 50 работников и производит усилители."
+
+msgid "<emphasis>NOTE</emphasis> Fictional company created for case study"
+msgstr "<emphasis>ПРИМЕЧАНИЕ</emphasis> Вымышленная компания, созданная для тематического исследования"
+
+msgid "The Falcot Corp company used as an example here is completely fictional. Any resemblance to an existing company is purely coincidental. Likewise, some example data throughout this book may be fictional."
+msgstr "Компания Falcot Corp, используется здесь в качестве примера и является полностью вымышленный. Любое сходство с уже существующей компании является чисто случайным. Аналогично, некоторые примеры данных в этой книге могут быть вымышленными."
+
+msgid "The computer system has had difficulty keeping up with the company's growth, so they are now determined to completely redefine it to meet various goals established by management:"
+msgstr "Компьютерная система с трудом успевает за ростом компании, поэтому теперь они готовы полностью пересмотреть её для различных целей, установленных руководством:"
+
+msgid "modern, easily scalable infrastructure;"
+msgstr "современная, легко масштабируемая инфраструктура;"
+
+msgid "reducing cost of software licenses thanks to use of Open Source software;"
+msgstr "снижение стоимости лицензий программного обеспечения, благодаря использованию открытого программного обеспечения;"
+
+msgid "installation of an e-commerce website, possibly B2B (business to business, i.e. linking of information systems between different companies, such as a supplier and its clients);"
+msgstr "установка веб-сайта электронной коммерции, возможно B2B (бизнес для бизнеса, т.е. увязки информационных систем между различными компаниями, такими как поставщик и его клиенты);"
+
+msgid "significant improvement in security to better protect trade secrets related to new products."
+msgstr "значительное улучшение безопасности для улучшения защиты коммерческой тайны, связанные с новой продукцией."
+
+msgid "The entire information system will be overhauled with these goals in mind."
+msgstr "Вся информационная система будет пересмотрена с учетом этих целей."
+
+msgid "<primary>master plan</primary>"
+msgstr "<primary>Генеральный план</primary>"
+
+msgid "<primary>migration</primary>"
+msgstr "<primary>миграция</primary>"
+
+msgid "With your collaboration, IT management has conducted a slightly more extensive study, identifying some constraints and defining a plan for migration to the chosen Open Source system, Debian."
+msgstr "В сотрудничестве с вами, IT-менеджмент провел несколько более обширное исследование, выявляющее некоторые ограничения и определяющее план миграции на выбранную систему с открытым исходным кодом, Debian."
+
+msgid "A significant constraint identified is that the accounting department uses specific software, which only runs on <trademark>Microsoft Windows</trademark>. The laboratory, for its part, uses computer aided design software that runs on <trademark>OS X</trademark>."
+msgstr "Были выявлены значительные ограничения, состоящие в том что бухгалтерский отдел использует специальное программное обеспечение, которое работает только на <trademark>Microsoft Windows</trademark>, лаборатория, в свою очередь, использует программное обеспечение автоматизированного проектирования, которое работает на <trademark>OS X</trademark>."
+
+msgid "Overview of the Falcot Corp network"
+msgstr "Обзор сети Falcot Corp"
+
+msgid "The switch to Debian will be gradual; a small business, with limited means, cannot reasonably change everything overnight. For starters, the IT staff must be trained in Debian administration. The servers will then be converted, starting with the network infrastructure (routers, firewalls, etc.) followed by the user services (file sharing, Web, SMTP, etc.). Then the office computers will be gradually migrated to Debian, for each department to be trained (internally) during the deployment of the new system."
+msgstr "Переход на Debian будет постепенным; Малый бизнес, располагая ограниченными средствами, не имеет возможности сделать всё за одну ночь. Для начала IT-персонал должен быть подготовлен к администрированию Debian . Затем будут переведены серверы , начиная с сетевой инфраструктуры (маршрутизаторы, брандмауэры и т.д.), потом пользовательские службы (локальные хранилища файлов, Веб, SMTP и др.). Затем офисные компьютеры будут постепенно переводиться на Debian, для каждого отдела, чтобы обучаться (внутренне) в процессе развертывания новой системы."
+
+msgid "Why a GNU/Linux Distribution?"
+msgstr "Почему дистрибутив GNU/Linux?"
+
+msgid "<emphasis>BACK TO BASICS</emphasis> Linux or GNU/Linux?"
+msgstr "<emphasis>К ОСНОВАМ</emphasis> Linux и GNU/Linux?"
+
+msgid "<primary>GNU/Linux</primary>"
+msgstr "<primary>GNU/Linux</primary>"
+
+msgid "<primary>Linux</primary>"
+msgstr "<primary>Linux</primary>"
+
+msgid "Linux, as you already know, is only a kernel. The expressions, “Linux distribution” and “Linux system” are, thus, incorrect: they are, in reality, distributions or systems <emphasis>based on</emphasis> Linux. These expressions fail to mention the software that always completes this kernel, among which are the programs developed by the GNU Project. Dr. Richard Stallman, founder of this project, insists that the expression “GNU/Linux” be systematically used, in order to better recognize the important contributions made by the GNU Project and the principles of freedom upon which they are founded."
+msgstr "Linux, как вы уже знаете, это только ядро. Таким образом, выражения «дистрибутив Linux» и «Система Linux» не верны: они являются, в действительности, дистрибутивами или системами <emphasis>на основе</emphasis> Linux. Эти выражения не упоминают программное обеспечение, которое всегда завершают это ядро, среди которых являются программы, разработанные в рамках проекта GNU. Д-р Ричард Столлман, основатель этого проекта, настаивает на систематическом использовании выражения «GNU/Linux», как признание важности вклада, внесенного Проектом GNU и принципов свободы, на которых он основывается."
+
+msgid "Debian has chosen to follow this recommendation, and, thus, name its distributions accordingly (thus, the latest stable release is Debian GNU/Linux 8)."
+msgstr "Debian решил следовать этой рекомендации и назвать свои дистрибутивы соответственно (поэтому последний стабильный выпуск называется Debian GNU/Linux 8)."
+
+msgid "Several factors have dictated this choice. The system administrator, who was familiar with this distribution, ensured it was listed among the candidates for the computer system overhaul. Difficult economic conditions and ferocious competition have limited the budget for this operation, despite its critical importance for the future of the company. This is why Open Source solutions were swiftly chosen: several recent studies indicate they are less expensive than proprietary solutions while providing equal or better quality of service so long as qualified personnel are available to run them."
+msgstr "Выбор обусловлен несколькими факторами. Системный администратор, знакомый с этим дистрибутивом, предложил его как вариант для реконструкции информационной системы. Трудные экономические условия и жестокая конкуренция ограничивают бюджет для этой операции, несмотря на её важнейшее значение для будущего компании. Вот почему решения с открытым кодом быстро были выбраны: некоторые недавние исследования показывают, что они являются менее дорогостоящими, чем проприетарные решения, обеспечивая равное или лучшее качество служб, при наличии квалифицированного персонала для их запуска."
+
+msgid "<emphasis>IN PRACTICE</emphasis> Total cost of ownership (TCO)"
+msgstr "<emphasis>НА ПРАКТИКЕ</emphasis> Совокупная стоимость владения (TCO - от англ. Total cost of ownership)"
+
+msgid "<primary>TCO</primary>"
+msgstr "<primary>TCO</primary>"
+
+msgid "<primary>Total Cost of Ownership</primary>"
+msgstr "<primary>Общая Стоимость Владения</primary>"
+
+msgid "The Total Cost of Ownership is the total of all money expended for the possession or acquisition of an item, in this case referring to the operating system. This price includes any possible license fee, costs for training personnel to work with the new software, replacement of machines that are too slow, additional repairs, etc. Everything arising directly from the initial choice is taken into account."
+msgstr "Общая стоимость владения - это сумма всех денег, израсходованных на владение или приобретение элемента, в нашем случае - операционной системы. Эта цена включает в себя любые возможные лицензионные сборы, затраты на обучение персонала работе с новым программным обеспечением, замену машин, которые являются слишком медленными, дополнительные ремонт и т.д. При первоначальном выборе принимаются во внимание все возникающие в данной ситуации обстоятельства."
+
+msgid "This TCO, which varies according to the criteria chosen in the assessment thereof, is rarely significant when taken in isolation. However, it is very interesting to compare TCOs for different options if they are calculated according to the same rules. This assessment table is, thus, of paramount importance, and it is easy to manipulate it in order to draw a predefined conclusion. Thus, the TCO for a single machine doesn't make sense, since the cost of an administrator is also reflected in the total number of machines they manage, a number which obviously depends on the operating system and tools proposed."
+msgstr "Эта общая стоимость владения, которая варьируется в зависимости от выбранных критериев в оценке, редко важна когда берется по отдельности. Тем не менее, очень интересно сравнивать общие стоимости владения для различных вариантов, если они рассчитаны в соответствии с теми же правилами. Эта таблица оценки - первостепенная важность, и ее легко использовать для того, чтобы получить определенный вывод. Таким образом, совокупная стоимость владения для одной машины не имеет смысла, так же как и стоимость администратора отражается в общем количестве машин, обслуживаемых им, которое, очевидно, зависит от операционной системы и инструментов предлагаемых ею."
+
+msgid "Among free operating systems, the IT department looked at the free BSD systems (OpenBSD, FreeBSD, and NetBSD), GNU Hurd, and Linux distributions. GNU Hurd, which has not yet released a stable version, was immediately rejected. The choice is simpler between BSD and Linux. The former have many merits, especially on servers. Pragmatism, however, led to choosing a Linux system, since its installed base and popularity are both very significant and have many positive consequences. One of these consequences is that it is easier to find qualified personnel to administer Linux machines than technicians experienced with BSD. Furthermore, Linux adapts to newer hardware faster than BSD (although they are often neck and neck in this race). Finally, Linux distributions are often more adapted to user-friendly graphical user interfaces, indispensable for beginners during migration of all office machines to a new system."
+msgstr "Среди свободных операционных систем IT-отдел выбирает из свободных BSD систем (OpenBSD, FreeBSD и NetBSD), GNU Hurd и Linux дистрибутивов. GNU Hurd, который еще не имеет стабильной версии, немедленно отвергается. Остаются BSD и Linux. Первые имеют много достоинств, особенно в качестве серверных ОС. Тем не менее, прагматизм склоняет к выбору Linux систем, т.к. их установочная база и популярность существены и имеют много положительных следствий. Одно из них: проще найти квалифицированный персонал для администрирования Linux, чем специалиста, знающего BSD. Кроме того, Linux приспосабливается под новое аппаратное обеспечение быстрее, чем BSD (хотя они обычно идут нос к носу в этой гонке). Наконец, Linux дистрибутивы обычно более адаптированы к дружелюбному пользовательскому интерфейсу, обязательному для новичков в течение миграцией всего офиса на новую систему."
+
+msgid "<emphasis>ALTERNATIVE</emphasis> Debian GNU/kFreeBSD"
+msgstr "<emphasis>АЛЬТЕРНАТИВА</emphasis> Debian GNU/kFreeBSD"
+
+msgid "<primary>kFreeBSD</primary>"
+msgstr "<primary>kFreeBSD</primary>"
+
+msgid "<primary>FreeBSD</primary>"
+msgstr "<primary>FreeBSD</primary>"
+
+msgid "<primary>BSD</primary>"
+msgstr "<primary>BSD</primary>"
+
+msgid "Since Debian <emphasis role=\"distribution\">Squeeze</emphasis>, it is possible to use Debian with a FreeBSD kernel on 32 and 64 bit computers; this is what the <literal>kfreebsd-i386</literal> and <literal>kfreebsd-amd64</literal> architectures mean. While these architectures are not “official release architectures”, about 90 % of the software packaged by Debian is available for them."
+msgstr "Начиная с Debian <emphasis role=\"distribution\"> Squeeze</emphasis> стало возможным использовать Debian с ядром FreeBSD на 32 и 64 разрядных компьютерах; имеется ввиду использование архитектур <literal>kfreebsd-i386</literal> и <literal>kfreebsd-amd64</literal>. Хотя эти архитектуры не являются «архитектурами официального релиза», около 90% программного обеспечения, упакованного для Debian, доступны для них."
+
+msgid "These architectures may be an appropriate choice for Falcot Corp administrators, especially for a firewall (the kernel supports three different firewalls: IPF, IPFW, PF) or for a NAS (network attached storage system, for which the ZFS filesystem has been tested and approved)."
+msgstr "Эти архитектуры могут стать подходящим выбором для администраторов Falcot Corp, особенно для брандмауэра (ядро поддерживает три различных брандмауэра: IPF, IPFW, PF) или для NAS (система хранения данных, для которой была проверена и разрешена файловая система ZFS)."
+
+msgid "Why the Debian Distribution?"
+msgstr "Почему дистрибутив Debian?"
+
+msgid "Once the Linux family has been selected, a more specific option must be chosen. Again, there are plenty of criteria to consider. The chosen distribution must be able to operate for several years, since the migration from one to another would entail additional costs (although less than if the migration were between two totally different operating systems, such as Windows or OS X)."
+msgstr "После выбора семейства Linux должен быть выбран более конкретный вариант. Опять же есть много критериев для рассмотрения. Выбранный дистрибутив должен быть способен работать несколько лет, поскольку переход с одного на другой повлечет дополнительные расходы (хотя меньше чем при миграции между двумя совершенно различными операционными системами, такими как Windows или OS X)."
+
+msgid "Sustainability is, thus, essential, and it must guarantee regular updates and security patches over several years. The timing of updates is also significant, since, with so many machines to manage, Falcot Corp can not handle this complex operation too frequently. The IT department, therefore, insists on running the latest stable version of the distribution, benefiting from the best technical assistance, and guaranteed security patches. In effect, security updates are generally only guaranteed for a limited duration on older versions of a distribution."
+msgstr "Важным параметром системы является стабильность, поэтому дистрибутив должен иметь регулярные обновления пакетов и обновления безопасности в течении нескольких лет. При наличии большого количества машин время обновлений также имеет важное значение, Falcot Corp не может проводить такую сложную операцию слишком часто. IT-отдел, таким образом, настаивает на установке последней стабильной версии дистрибутива, имеющей лучшую техническую поддержку и гарантированную систему исправления ошибок безопасности. По сути, обновления безопасности гарантируются, как правило, на ограниченный срок для более старых версий дистрибутива."
+
+msgid "Finally, for reasons of homogeneity and ease of administration, the same distribution must run on all the servers (some of which are Sparc machines, currently running Solaris) and office computers."
+msgstr "Наконец, для обеспечения однородности и простоты управления, на всех офисных компьютерах и серверах (некоторые из которых машины Sparc, в настоящее время работающие под Solaris) необходимо запускать один и тот же дистрибутив."
+
+msgid "Commercial and Community Driven Distributions"
+msgstr "Коммерческие дистрибутивы и дистрибутивы, управляемые сообществом"
+
+msgid "There are two main categories of Linux distributions: commercial and community driven. The former, developed by companies, are sold with commercial support services. The latter are developed according to the same open development model as the free software of which they are comprised."
+msgstr "Существует две основные категории дистрибутивов Linux: коммерческие и разрабатываемые сообществом. Первые, разработанные компаниями, продаются с коммерческой поддержкой. Последние разрабатываются согласно открытой модели разработки свободного программного обеспечения, из которого они состоят."
+
+msgid "A commercial distribution will have, thus, a tendency to release new versions more frequently, in order to better market updates and associated services. Their future is directly connected to the commercial success of their company, and many have already disappeared (Caldera Linux, StormLinux, etc.)."
+msgstr "Коммерческие дистрибутивы, таким образом, имеют тенденцию к более частому выпуску новых релизов, обусловленную стремлением чаще предоставлять платные обновления и сопутствующие услуги. Их будущее непосредственно связано с коммерческим успехом их компании, и многие уже исчезли (Caldera Linux, StormLinux и т.д.)."
+
+msgid "A community distribution doesn't follow any schedule but its own. Like the Linux kernel, new versions are released when they are stable, never before. Its survival is guaranteed, as long as it has enough individual developers or third party companies to support it."
+msgstr "Частота выпусков дистрибутива, разрабатываемого сообществом, не зависит от конкретного расписания. Так новые версии ядра Linux выпускаются только когда они являются стабильными и никогда раньше. Его выживание гарантировано до тех пор пока он имеет достаточно отдельных разработчиков или сторонних компаний для его поддержки."
+
+msgid "<primary>distribution</primary><secondary>community Linux distribution</secondary>"
+msgstr "<primary>дистрибутив</primary> <secondary>дистрибутив Linux разрабатываемый сообществом</secondary>"
+
+msgid "<primary>distribution</primary><secondary>commercial Linux distribution</secondary>"
+msgstr "<primary>дистрибутив</primary> <secondary>коммерческий дистрибутив Linux</secondary>"
+
+msgid "A comparison of various Linux distributions led to the choice of Debian for various reasons:"
+msgstr "Сравнение различных дистрибутивов Linux привело к выбору Debian по различным причинам:"
+
+msgid "It is a community distribution, with development ensured independently from any commercial constraints; its objectives are, thus, essentially of a technical nature, which seem to favor the overall quality of the product."
+msgstr "Это дистрибутив поддерживаемый сообществом, с развитием обеспечивается независимость от каких-либо коммерческих ограничений; таким образом, его цели, по существу, носят технический характер и служат во благо общего качества продукта."
+
+msgid "Of all community distributions, it is the most significant from many perspectives: in number of contributors, number of software packages available, and years of continuous existence. The size of its community is an incontestable witness to its continuity."
+msgstr "Для всех поддерживаемых сообществом дистрибутивов, наиболее важными показателями являются: количество участников, количество доступных пакетов программного обеспечения и срок непрерывного существования. Размер  сообщества является неоспоримым свидетельством его непрерывности."
+
+msgid "Statistically, new versions are released every 18 to 24 months, and they are supported for 5 years, a schedule which is agreeable to administrators."
+msgstr "Статистически новые версии выпускаются каждые 18-24 месяца и поддерживаются в течении 5 лет, - режим обновлений, приемлемый для администраторов."
+
+msgid "A survey of several French service companies specialized in free software has shown that all of them provide technical assistance for Debian; it is also, for many of them, their chosen distribution, internally. This diversity of potential providers is a major asset for Falcot Corp's independence."
+msgstr "Обзор нескольких французских сервисных компаний, специализирующихся в свободном программном обеспечении, показал, что все они оказывают техническую помощь Debian. Кроме того, многие из них используют его в качестве внутреннего дистрибутива. Такое разнообразие потенциальных поставщиков является основным активом для независимости Falcot Corp."
+
+msgid "Finally, Debian is available on a multitude of architectures, including ppc64el for OpenPOWER processors; it will, thus, be possible to install it on Falcot Corp's latest IBM servers."
+msgstr "Наконец, Debian доступен на множестве архитектур, включая ppc64el для OpenPOWER процессоров; таким образом, его можно будет установить на новейшие серверы IBM, установленные в Falcot Corp."
+
+msgid "<emphasis>IN PRACTICE</emphasis> Debian Long Term Support"
+msgstr "<emphasis>НА ПРАКТИКЕ</emphasis> Долгосрочная Поддержка Debian (LTS)"
+
+msgid "The Debian Long Term Support (LTS) project started in 2014 and aims to provide 5 years of security support to all stable Debian releases. As LTS is of primary importance to organizations with large deployments, the project tries to pool resources from Debian-using companies. <ulink type=\"block\" url=\"https://wiki.debian.org/LTS\" />"
+msgstr "Проект долгосрочной поддержки (LTS) Debian стартовал в 2014 году и направлен на обеспечение пятилетнего срока поддержки безопасности всех стабильных выпусков Debian. LTS имеет первостепенное значение для организаций с большими масштабами внедрения ОС, проект пытается объединить ресурсы компаний, использующих Debian. <ulink type=\"block\" url=\"https://wiki.debian.org/LTS\" />"
+
+msgid "Falcot Corp is not big enough to let one member of its IT staff contribute to the LTS project, so the company opted to subscribe to Freexian's Debian LTS contract and provides financial support. Thanks to this, the Falcot administrators know that the packages they use will be handled in priority and they have a direct contact with the LTS team in case of problems. <ulink type=\"block\" url=\"https://wiki.debian.org/LTS/Funding\" /> <ulink type=\"block\" url=\"http://www.freexian.com/services/debian-lts.html\" />"
+msgstr "Falcot Corp не достаточно велика, чтобы выделить сотрудника из IT-персонала для поддержки проекта LTS, поэтому компания решила подписать контракт Debian LTS на Freexian и оказывает финансовую поддержку. Благодаря этому администраторы Falcot знают, в какой последовательности будут обрабатываться используемые ими пакеты и имеют прямой контакт с командой LTS в случае возникновения проблем. <ulink type=\"block\" url=\"https://wiki.debian.org/LTS/Funding\" /> <ulink type=\"block\" url=\"http://www.freexian.com/services/debian-lts.html\" />"
+
+msgid "Once Debian has been chosen, the matter of which version to use must be decided. Let us see why the administrators have picked Debian Jessie."
+msgstr "После того, как был выбран Debian, должен решаться вопрос о версии для использования. Давайте посмотрим, почему администраторы выбрали Debian Jessie."
+
+msgid "Why Debian Jessie?"
+msgstr "Почему Debian Jessie?"
+
+msgid "Every Debian release starts its life as a continuously changing distribution, also known as “<emphasis role=\"distribution\">Testing</emphasis>”. But at the time we write those lines, Debian Jessie is the latest “<emphasis role=\"distribution\">Stable</emphasis>” version of Debian."
+msgstr "Каждый релиз Debian начинает свою жизнь как постоянно меняющийся дистрибутив, также известный как «<emphasis role=\"distribution\">Testing</emphasis>». На момент написания этих строк, Debian Jessie это последний стабильный «<emphasis role=\"distribution\">Stable</emphasis>» релиз Debian."
+
+msgid "The choice of Debian Jessie is well justified based on the fact that any administrator concerned about the quality of their servers will naturally gravitate towards the stable version of Debian. Even if the previous stable release might still be supported for a while, Falcot administrators aren't considering it because its support period will not last long enough and because the latest version brings new interesting features that they care about."
+msgstr "Выбор Debian Jessie вполне оправдан, учитывая что любой администратор озабочен стабильностью работы серверов, он будет естественным образом тяготеть к стабильной версии Debian. Даже если предыдущий стабильный релиз может по-прежнему поддерживаться в течении некоторого времени, администраторы Falcot не будут учитывать это, потому что его период поддержки не будет длиться достаточно долго, а также потому что последняя версия содержит новые интересные функции, которые их заботят."

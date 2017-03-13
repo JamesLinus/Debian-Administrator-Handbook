@@ -1,0 +1,87 @@
+# Raphaël Hertzog <hertzog@debian.org>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2015-10-19 15:00+0200\n"
+"PO-Revision-Date: 2015-10-27 19:12+0100\n"
+"Last-Translator: Raphaël Hertzog <hertzog@debian.org>\n"
+"Language-Team: debian-handbook-translators@lists.alioth.debian.org\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-publican; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+msgid "Future"
+msgstr "Avenir"
+
+msgid "Improvements"
+msgstr "Améliorations"
+
+msgid "Opinions"
+msgstr "Opinions"
+
+msgid "Conclusion: Debian's Future"
+msgstr "Conclusion : l'avenir de Debian"
+
+msgid "The story of Falcot Corp ends with this last chapter; but Debian lives on, and the future will certainly bring many interesting surprises."
+msgstr "L'histoire de Falcot SA s'arrête, pour le moment, avec ce dernier chapitre. En revanche, celle de Debian continue et l'avenir nous réserve à coup sûr de nombreuses et agréables surprises."
+
+msgid "Upcoming Developments"
+msgstr "Développements à venir"
+
+msgid "Weeks (or months) before a new version of Debian is released, the Release Manager picks the codename for the next version. Now that Debian version 8 is out, the developers are already busy working on the next version, codenamed <emphasis role=\"distribution\">Stretch</emphasis>…"
+msgstr "Quelques semaines à quelques mois avant la sortie d'une nouvelle version, le <foreignphrase>Release Manager</foreignphrase> choisit le nom de code de la prochaine.  La version actuelle de Debian est la 8, mais les développeurs s'affairent déjà à la préparation de la version suivante : nom de code <emphasis role=\"distribution\">Stretch</emphasis>…"
+
+msgid "There is no official list of planned changes, and Debian never makes promises relating to technical goals of the coming versions. However, a few development trends can already be noted, and we can try some bets on what might happen (or not)."
+msgstr "Il n'existe pas de liste des changements prévus et Debian ne s'engage jamais quant aux objectifs techniques de la version suivante. Néanmoins, quelques axes de développement existent et on peut se risquer à quelques paris quant à ce qui pourrait arriver."
+
+msgid "In order to improve security and trust, most if not all the packages will be made to build reproducibly; that is to say, it will be possible to rebuild byte-for-byte identical binary packages from the source packages, thus allowing everyone to verify that no tampering has happened during the builds."
+msgstr "Pour améliorer la confiance et la sécurité, la plupart des paquets (sinon tous) seront compilés de manière reproductible. C'est-à-dire qu'il sera possible de recompiler des paquets binaires identiques à l'octet près à partir des paquets sources, ce qui permettra à chacun de vérifier qu'aucune modification non souhaitée ne s'est produite durant la compilation (ou après)."
+
+msgid "In a related theme, a lot of effort will have gone into improving security by default, and mitigating both “traditional” attacks and the new threats implied by mass surveillance."
+msgstr "Sur le même thème, beaucoup d'efforts auront été faits pour améliorer la sécurité par défaut, et pour limiter à la fois les attaques « traditionnelles » et les menaces nouvelles liées à la surveillance de masse."
+
+msgid "Of course, all the main software suites will have had a major release. The latest version of the various desktops will bring better usability and new features. Wayland, the new display server that is being developed to replace X11 with a more modern alternative, will be available (although maybe not default) for at least some desktop environments."
+msgstr "Bien évidemment, il y aura des nouvelles versions pour les principales suites de logiciels. La dernière version des différents bureaux sera plus ergonomique et apportera des nouvelles fonctionnalités. Wayland, le nouveau serveur d'affichage en développement qui vise à être une alternative moderne à X11, sera disponible (peut-être pas par défaut) pour au moins quelques environnements de bureau."
+
+msgid "A new feature of the archive maintenance software, “bikesheds”, will allow developers to host special-purpose package repositories in addition to the main repositories; this will allow for personal package repositories, repositories for software not ready to go into the main archive, repositories for software that has only a very small audience, temporary repositories for testing new ideas, and so on."
+msgstr "Une nouvelle fonctionnalité du logiciel de gestion de l'archive Debian — les <foreignphrase>bikesheds</foreignphrase> — offrira la possibilité aux développeurs d'avoir des dépôts de paquets à usage particulier, en plus des dépôts principaux. Ce pourront être des dépôts de paquets personnels, des dépôts de logiciels pas encore prêts pour intégrer l'archive principale, des dépôts pour des logiciels à très faible audience, des dépôts temporaires pour tester de nouvelles idées, etc."
+
+msgid "Debian's Future"
+msgstr "Avenir de Debian"
+
+msgid "In addition to these internal developments, one can reasonably expect new Debian-based distributions to come to light, as many tools keep making this task easier. New specialized subprojects will also be started, in order to widen Debian's reach to new horizons."
+msgstr "En dehors de ces développements internes, il est probable que de nouvelles distributions fondées sur Debian verront le jour grâce aux nombreux outils qui simplifient cette tâche.  Par ailleurs, de nouveaux sous-projets spécifiques naîtront, élargissant toujours le spectre des domaines couverts par Debian."
+
+msgid "The Debian user community will increase, and new contributors will join the project… including, maybe, you!"
+msgstr "La communauté des utilisateurs Debian se sera étoffée et de nouveaux contributeurs rejoindront le projet... dont vous serez peut-être !"
+
+msgid "The Debian project is stronger than ever, and well on its way towards its goal of a universal distribution; the inside joke within the Debian community is about <foreignphrase>World Domination</foreignphrase>."
+msgstr "Force est de constater que le projet Debian est plus vigoureux que jamais et qu'il est désormais bien lancé vers son objectif de distribution universelle. <foreignphrase>World Domination</foreignphrase> (« domination mondiale »), dit-on en plaisantant dans les rangs de Debian."
+
+msgid "In spite of its old age and its respectable size, Debian keeps on growing in all kinds of (sometimes unexpected) directions. Contributors are teeming with ideas, and discussions on development mailing lists, even when they look like bickerings, keep increasing the momentum. Debian is sometimes compared to a black hole, of such density that any new free software project is attracted."
+msgstr "Malgré son ancienneté et sa taille déjà importante, Debian continue de croître et d'évoluer dans de nombreuses directions — certaines sont d'ailleurs inattendues. Les contributeurs ne manquent jamais d'idées et les discussions sur les listes de développement — même si parfois elles ressemblent à des chamailleries — ne cessent d'alimenter la machine. Certains comparent même Debian à un trou noir : sa densité est telle qu'elle attire systématiquement tout nouveau projet libre."
+
+msgid "Beyond the apparent satisfaction of most Debian users, a deep trend is becoming more and more indisputable: people are increasingly realising that collaborating, rather than working alone in their corner, leads to better results for everyone. Such is the rationale used by distributions merging into Debian by way of subprojects."
+msgstr "Au-delà du fait que Debian semble satisfaire une majorité de ses utilisateurs, il y a une tendance de fond : les gens commencent à se rendre compte qu'en collaborant — plutôt que de faire sa cuisine dans son coin — il est possible d'obtenir un résultat meilleur pour tous. C'est bien la logique suivie par toutes les distributions qui se greffent à Debian, en formant des sous-projets."
+
+msgid "The Debian project is therefore not threatened by extinction…"
+msgstr "Le projet Debian n'est donc pas près de disparaître..."
+
+msgid "Future of this Book"
+msgstr "Avenir de ce livre"
+
+msgid "We would like this book to evolve in the spirit of free software. We therefore welcome contributions, remarks, suggestions, and criticism. Please direct them to Raphaël (<email>hertzog@debian.org</email>) or Roland (<email>lolando@debian.org</email>). For actionable feedback, feel free to open bug reports against the <literal>debian-handbook</literal> Debian package. The website will be used to gather all information relevant to its evolution, and you will find there information on how to contribute, in particular if you want to translate this book to make it available to an even larger public than today. <ulink type=\"block\" url=\"http://debian-handbook.info/\" />"
+msgstr "Nous souhaitons que ce livre puisse évoluer dans l'esprit du logiciel libre.  C'est pourquoi nous vous invitons à y contribuer en nous faisant part de vos remarques, de vos suggestions et de vos critiques.  Pour cela, vous pouvez écrire directement à Raphaël (<email>hertzog@debian.org</email>) et Roland (<email>lolando@debian.org</email>).  Le site web ci-après regroupera l'ensemble des informations portant sur son évolution.  Vous y trouverez aussi les informations sur la façon d'y contribuer, en particulier si vous souhaitez aider à traduire ce livre et le rendre disponible à un public encore plus vaste qu'aujourd'hui.  <ulink type=\"block\" url=\"http://debian-handbook.info/\" />"
+
+msgid "We tried to integrate most of what our experience at Debian taught us, so that anyone can use this distribution and take the best advantage of it as soon as possible. We hope this book contributes to making Debian less confusing and more popular, and we welcome publicity around it!"
+msgstr "Nous avons essayé d'intégrer tout ce que notre expérience chez Debian nous a fait découvrir, afin que tout un chacun puisse utiliser cette distribution et en tirer le meilleur profit le plus rapidement possible. Nous espérons que ce livre contribue à la démystification et à la popularisation de Debian. N'hésitez donc pas à le recommander !"
+
+msgid "We would like to conclude on a personal note. Writing (and translating) this book took a considerable amount of time out of our usual professional activity. Since we are both freelance consultants, any new source of income grants us the freedom to spend more time improving Debian; we hope this book to be successful and to contribute to this. In the meantime, feel free to retain our services! <ulink type=\"block\" url=\"http://www.freexian.com\" /> <ulink type=\"block\" url=\"http://www.gnurandal.com\" />"
+msgstr "Pour conclure, nous aimerions finir sur une note plus personnelle.  La réalisation de ce livre nous a pris un temps considérable en dehors de nos activités professionnelles habituelles.  Comme nous sommes tous deux des consultants informatiques indépendants, toute source de revenus complémentaires nous offre la liberté de consacrer encore plus de temps au développement de Debian.  Nous espérons que le succès de ce livre y contribuera.  En attendant, n'hésitez pas à faire appel à nos services ! <ulink type=\"block\" url=\"http://www.freexian.com\" /> <ulink type=\"block\" url=\"http://www.gnurandal.com\" />"
+
+msgid "See you soon!"
+msgstr "À bientôt !"
+

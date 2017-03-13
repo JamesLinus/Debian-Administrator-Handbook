@@ -1,0 +1,25 @@
+#
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2015-09-09 18:47+0200\n"
+"PO-Revision-Date: 2012-08-02 15:18+0200\n"
+"Last-Translator: Denis Doria <denisdoria@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <http://debian.weblate.org/projects/debian-handbook/Revision_History/pt_BR/>\n"
+"Language: pt-BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-publican; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 1.2\n"
+
+msgid "Revision History"
+msgstr "Histórico da Revisão"
+
+msgid "Raphaël"
+msgstr "Raphaël"
+
+msgid "Hertzog"
+msgstr "Hertzog"

@@ -1,0 +1,45 @@
+Source: debian-handbook
+Section: doc
+Priority: optional
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Build-Depends: debhelper (>= 9), rdfind, publican, publican-debian,
+# EPUB output
+ dbtoepub,
+# PDF output
+ dblatex, texlive-xetex, fonts-linuxlibertine, texlive-pstricks,
+ fonts-sil-gentium-basic,
+# French translation
+ texlive-lang-french,
+# Japanese translation
+ texlive-lang-japanese, ghostscript, lmodern, fonts-mplus,
+# Spanish translation
+ texlive-lang-spanish,
+# Portuguese brazilian translation
+ texlive-lang-portuguese,
+# Italian translation
+ texlive-lang-italian,
+Standards-Version: 3.9.8
+Homepage: http://debian-handbook.info
+Vcs-Git: https://anonscm.debian.org/git/debian-handbook/debian-handbook.git
+Vcs-Browser: https://anonscm.debian.org/cgit/debian-handbook/debian-handbook.git
+
+Package: debian-handbook
+Architecture: all
+Depends: ${misc:Depends}
+Description: reference book for Debian users and system administrators
+ Accessible to all, the Debian Administrator's Handbook teaches the essentials
+ to anyone who wants to become an effective and independent Debian GNU/Linux
+ administrator.
+ .
+ It covers all the topics that a competent Linux administrator should master,
+ from the installation and the update of the system, up to the creation of
+ packages and the compilation of the kernel, but also monitoring, backup and
+ migration, without forgetting advanced topics like SELinux/AppArmor setup to
+ secure services, automated installations, or virtualization with Xen, KVM or
+ LXC.
+ .
+ The Debian Administrator's Handbook has been written by two Debian
+ developers — Raphaël Hertzog and Roland Mas.
+ .
+ This package contains the English book covering Debian 8 “Jessie”. All
+ the files are available in /usr/share/doc/debian-handbook/.

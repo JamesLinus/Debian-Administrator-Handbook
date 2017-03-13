@@ -1,0 +1,374 @@
+#
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Ade Malsasa Akbar <teknoloid@gmail.com>, 2013. 
+# Samsul Ma'arif <mail@samsul.web.id>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2015-09-09 18:47+0200\n"
+"PO-Revision-Date: 2016-11-17 15:50+0000\n"
+"Last-Translator: Prayogo Cendra <prayogocendra@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/debian-handbook/03_existing-setup/id/>\n"
+"Language: id-ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-publican; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.10-dev\n"
+
+msgid "Existing Setup"
+msgstr "Setingan yang Ada"
+
+msgid "Reuse"
+msgstr "Penggunaan Kembali"
+
+msgid "Migration"
+msgstr "Migrasi"
+
+msgid "Analyzing the Existing Setup and Migrating"
+msgstr "Menganalisa Setingan yang Ada dan Memigrasikannya"
+
+msgid "Any computer system overhaul should take the existing system into account. This allows reuse of available resources as much as possible and guarantees interoperability of the various elements comprising the system. This study will introduce a generic framework to follow in any migration of a computing infrastructure to Linux."
+msgstr "Beberapa kerusakan sistem komputer harus memerhatikan sistem yang ada. Hal ini mengizinkan penggunaan kembali sumberdaya yang tersesia sebanyak mungkin dan menjamin interoperabilitas dari berbagai elemen perbandingan sistem. Studi ini akan mengenalkan kerangka umum yang diikuti dalam migrasi infrastruktur komputer ke Linux."
+
+msgid "Coexistence in Heterogeneous Environments"
+msgstr "Berdampingan dalam Lingkungan yang Heterogen"
+
+msgid "<primary>environment</primary><secondary>heterogeneous environment</secondary>"
+msgstr "<primary>lingkungan</primary><secondary>lingkungan yang heterogen</secondary>"
+
+#, fuzzy
+msgid "Debian integrates very well in all types of existing environments and plays well with any other operating system. This near-perfect harmony comes from market pressure which demands that software publishers develop programs that follow standards. Compliance with standards allows administrators to switch out programs: clients or servers, whether free or not."
+msgstr "Debian sangat baik dalam mengintegrasikan berbagai lingkungan yang ada dan bermain dengan baik dengan beberapa sistem operasi lain. Harmoni yang mendekati sempurna ini datang dari tekanan pasar yang menuntut bahwa penerbit perangkat lunak mengembangkan program yang mengikuti standar. Penyesuaian dengan standar mengizinkan administrator untuk berganti program: klien atau server, entah itu bebas (free) atau tidak."
+
+msgid "Integration with Windows Machines"
+msgstr "Integrasi dengan Mesin Windows"
+
+msgid "Samba's SMB/CIFS support ensures excellent communication within a Windows context. It shares files and print queues to Windows clients and includes software that allow a Linux machine to use resources available on Windows servers."
+msgstr "Dukngan SMB/CIFS Samba memastikan komunikasi sempurna dengan konteks Windows. Berbagi berkas dan antrian cetak pada klien Windows dan termasuk perangkat lunak yang mengizinkan mesin Linux untuk menggunakan sumberdaya yang ada pada server Windows."
+
+msgid "<emphasis>TOOL</emphasis> Samba"
+msgstr "<emphasis>ALAT</emphasis> Samba"
+
+msgid "<primary>Samba</primary>"
+msgstr "<primary>Samba</primary>"
+
+#, fuzzy
+msgid "The latest version of Samba can replace most of the Windows features: from those of a simple Windows NT server (authentication, files, print queues, downloading printer drivers, DFS, etc.) to the most advanced one (a domain controller compatible with Active Directory)."
+msgstr "Samba versi 2 berperilaku seperti server Windows NT (otentikasi, berkas, antrian cetak, mengunduh penggerak printer, DFS, dll.) Versi 3 bekerja dengan Active Directory, membawa interoperabilitas dengan domain kontroller NT4, dan mendukung RPC (Remote Procedure Calls), Versi 4 ialah penulisan ulang (masin eksperimental), tujuannya menyediakan fungsionalitas domain kontroler yang cocok dengan Active Directory."
+
+#, fuzzy
+#| msgid "Integration with Mac OS machines"
+msgid "Integration with OS X machines"
+msgstr "Integrasi dengan mesin Mac OS"
+
+msgid "<primary>Zeroconf</primary>"
+msgstr "<primary>Zeroconf</primary>"
+
+msgid "<primary>Bonjour</primary>"
+msgstr "<primary>Bonjour</primary>"
+
+msgid "<primary>Avahi</primary>"
+msgstr "<primary>Avahi</primary>"
+
+#, fuzzy
+#| msgid "Mac OS machines provide, and are able to use, network services such as file servers and printer sharing. These services are published on the local network, which allows other machines to discover them and make use of them without any manual configuration, using the Bonjour implementation of the Zeroconf protocol suite. Debian includes another implementation, called Avahi, which provides the same functionality."
+msgid "OS X machines provide, and are able to use, network services such as file servers and printer sharing. These services are published on the local network, which allows other machines to discover them and make use of them without any manual configuration, using the Bonjour implementation of the Zeroconf protocol suite. Debian includes another implementation, called Avahi, which provides the same functionality."
+msgstr "Mesin Mac OS menyediakan, dan dapat menggunakan, layanan jaringan seperti server berkas dan printer sharing. Layanan ini dipublikasikan pada jaringan lokal, yang memungkinkan mesin lain untuk menemukan dan menggunakannya tanpa konfigurasi manual, menggunakan implementasi Bonjour pada protokol Zeroconf. Debian menyertakan implementasi lain, yang disebut Avahi, yang menyediakan fungsionalitas yang sama."
+
+msgid "<primary>AFP</primary>"
+msgstr "<primary>AFP</primary>"
+
+msgid "<primary>AppleShare</primary>"
+msgstr "<primary>AppleShare</primary>"
+
+#, fuzzy
+#| msgid "In the other direction, the Netatalk daemon can be used to provide file servers to Mac OSX machines on the network. It implements the AFP (AppleShare) protocol as well as the required notifications so that the servers can be autodiscovered by the Mac OSX clients."
+msgid "In the other direction, the Netatalk daemon can be used to provide file servers to OS X machines on the network. It implements the AFP (AppleShare) protocol as well as the required notifications so that the servers can be autodiscovered by the OS X clients."
+msgstr "Pada arah yang lain, daemon Nettalk dapat digunakan untuk menyediakan server berkas untuk mesin Mac OSX pada jaringan. Mengimplementasikan protokol AFP (AppleShare) sebagaimana pemberitahuan yang diperlukan sehingga server dapat ditemukan secara otomatis oleh klien Mac OSX."
+
+msgid "<primary>AppleTalk</primary>"
+msgstr "<primary>AppleTalk</primary>"
+
+#, fuzzy
+#| msgid "Older Mac OS networks (before Mac OSX) used a different protocol called AppleTalk. For environments involving machines using this protocol, Netatalk also provides the AppleTalk protocol (in fact, it started as a reimplementation of that protocol). It ensures the operation of the file server and print queues, as well as time server (clock synchronization). Its router function allows interconnection with AppleTalk networks."
+msgid "Older Mac OS networks (before OS X) used a different protocol called AppleTalk. For environments involving machines using this protocol, Netatalk also provides the AppleTalk protocol (in fact, it started as a reimplementation of that protocol). It ensures the operation of the file server and print queues, as well as time server (clock synchronization). Its router function allows interconnection with AppleTalk networks."
+msgstr "Jaringan Mac OS tua (sebelum Mac OSX) menggunakan protokol berbeda yang disebut AppleTalk. Untuk lingkungan yang melibatkan mesin menggunakan protokol ini, Netatalk juga menyediakan protokol AppleTalk (kenyataannya, dimulai dengan implementasi ulang protokol tersebut). Hal ini memastikan operasi server berkas dan antrian cetak, sebagaimana server waktu (sinkronisasi jam). Fungsi protokolnya mengizinkan interkoneksi dengan jaringan AppleTalk."
+
+msgid "Integration with Other Linux/Unix Machines"
+msgstr "Integrasi denggan Mesin Linux/Unix lainnya"
+
+msgid "Finally, NFS and NIS, both included, guarantee interaction with Unix systems. NFS ensures file server functionality, while NIS creates user directories. The BSD printing layer, used by most Unix systems, also allows sharing of print queues."
+msgstr "Akhirnya, NFS dan NIS, keduanya termasuk, jaminan interaksi dengan sistem Unix. NFS memastikan fungsionalitas file server, sedangkan NIS membuat direktori pengguna. Lapisan cetak BSD, digunakan oleh kebanyak sistem Unix, juga mengizinkan berbagi antrian cetak."
+
+#, fuzzy
+#| msgid "Coexistence of Debian with MacOS, Windows and Unix systems"
+msgid "Coexistence of Debian with OS X, Windows and Unix systems"
+msgstr "Debian Berdampingan dengan MacOS, Windows, dan sistem Unix"
+
+msgid "How To Migrate"
+msgstr "Bagaimana Bermigrasi"
+
+msgid "<primary>migration</primary>"
+msgstr "<primary>migrasi</primary>"
+
+#, fuzzy
+msgid "In order to guarantee continuity of the services, each computer migration must be planned and executed according to the plan. This principle applies whatever the operating system used."
+msgstr "Untuk menjamin keberlanjutan layanan, setiap migrasi komputer harus direncanakan dan dieksekusi berdasarkan rencana. Apapun sistem operasi yang digunakan, prinsip ini tak pernah berubah."
+
+msgid "Survey and Identify Services"
+msgstr "Survey dan Mengidentifikasi Layanan"
+
+msgid "As simple as it seems, this step is essential. A serious administrator truly knows the principal roles of each server, but such roles can change, and sometimes experienced users may have installed “wild” services. Knowing that they exist will at least allow you to decide what to do with them, rather than delete them haphazardly."
+msgstr "Sesederhana seperti terlihat, langkah ini penting. Seorang administrator benar-benar tahu aturan prinsip masing-masing server, namun aturan dapat berubah, dan kadang pengguna berpengalaman mungkin telah memasang layanan yang “liar”. Mengetahui hal tersebut setidaknya akan mengizinkan Anda untuk memutuskan apa yang akan dilakukan dengannya, daripada menghapusnya semena-mena."
+
+#, fuzzy
+msgid "For this purpose, it is wise to inform your users of the project before migrating the server. To involve them in the project, it may be useful to install the most common free software programs on their desktops prior to migration, which they will come across again after the migration to Debian; Libre Office and the Mozilla suite are the best examples here."
+msgstr "Untuk tujuan ini, alangkah bijak menginformasikan pengguna proyek Anda sebelum memigrasikan server. Melibatkan mereka pada proyek, mungkin akan berguna untuk menginstall program perangkat lunak bebas pada desktop mereka sebelum migrasi, yang mana mereka akan kembali setelah migrasi ke Debian; OpenOffice.org dan Mozilla ialah contoh terbaik di sini."
+
+msgid "Network and Processes"
+msgstr "Jaringan dan Proses"
+
+#, fuzzy
+#| msgid "<primary>Samba</primary>"
+msgid "<primary><command>nmap</command></primary>"
+msgstr "<primary>Samba</primary>"
+
+#, fuzzy
+#| msgid "<indexterm><primary><command>nmap</command></primary></indexterm> The <command>nmap</command> tool (in the package with the same name) will quickly identify Internet services hosted by a network connected machine without even requiring to log in to it. Simply call the following command on another machine connected to the same network:"
+msgid "The <command>nmap</command> tool (in the package with the same name) will quickly identify Internet services hosted by a network connected machine without even requiring to log in to it. Simply call the following command on another machine connected to the same network:"
+msgstr "<indexterm><primary><command>nmap</command></primary></indexterm> Alat <command>nmap</command> (dalam paket dengan nama yang sama) akan mengidentifikasi secara cepat layanan Internet yang dihostkan oleh mesin jaringan terhubung tanpa perlu masuk ke dalamnya. Mudahnya panggil perintah berikut pada mesin yang terhubung pada jaringan yang sama:"
+
+msgid ""
+"\n"
+"<computeroutput>$ </computeroutput><userinput>nmap mirwiz</userinput>\n"
+"<computeroutput>Starting Nmap 6.47 ( http://nmap.org ) at 2015-03-24 11:34 CET\n"
+"Nmap scan report for mirwiz (192.168.1.104)\n"
+"Host is up (0.0037s latency).\n"
+"Not shown: 999 closed ports\n"
+"PORT   STATE SERVICE\n"
+"22/tcp open  ssh\n"
+"\n"
+"Nmap done: 1 IP address (1 host up) scanned in 0.13 seconds</computeroutput>"
+msgstr ""
+"\n"
+"<computeroutput>$ </computeroutput><userinput>nmap mirwiz</userinput>\n"
+"<computeroutput>Starting Nmap 6.00 ( http://nmap.org ) at 2012-12-17 11:34 CET\n"
+"Nmap scan report for mirwiz (192.168.1.104)\n"
+"Host is up (0.0037s latency).\n"
+"Not shown: 999 closed ports\n"
+"PORT   STATE SERVICE\n"
+"22/tcp open  ssh\n"
+"\n"
+"Nmap done: 1 IP address (1 host up) scanned in 0.13 seconds</computeroutput>"
+
+msgid "<emphasis>ALTERNATIVE</emphasis> Use <command>netstat</command> to find the list of available services"
+msgstr "<emphasis>ALTERNATIF</emphasis> Gunakan <command>netstat</command> untuk mencari daftar service yang tersedia"
+
+msgid "On a Linux machine, the <command>netstat -tupan</command> command will show the list of active or pending TCP sessions, as well UDP ports on which running programs are listening. This facilitates identification of services offered on the network."
+msgstr "Pada mesin Linux, perintah <command>netstat -tupan</command> akan menampilkan daftar sesi TCP aktif maupun pending, juga port UDP program berjalan yang mendengarkan. Fasilitas ini mengidentifikasi layanan yang ditawarkan oleh jaringan."
+
+msgid "<emphasis>GOING FURTHER</emphasis> IPv6"
+msgstr "<emphasis>LEBIH JAUH</emphasis> IPv6"
+
+#, fuzzy
+msgid "Some network commands may work either with IPv4 (the default usually) or with IPv6. These include the <command>nmap</command> and <command>netstat</command> commands, but also others, such as <command>route</command> or <command>ip</command>. The convention is that this behavior is enabled by the <parameter>-6</parameter> command-line option."
+msgstr "Beberapa perintah jaringan mungkin bekerja baik itu IPv4 (biasanya sebagai bawaan) atau IPv6. Khususnya dalam hal perintah <command>nmap</command> dan <command>netstat</command>, tetapi juga yang lainnya, seperti <command>route</command> atau <command>ip</command>. Konvensi ini dapat diaktifkan dengan opsi baris perintah <parameter>-6</parameter>."
+
+#, fuzzy
+msgid "If the server is a Unix machine offering shell accounts to users, it is interesting to determine if processes are executed in the background in the absence of their owner. The command <command>ps auxw</command> displays a list of all processes with their user identity. By checking this information against the output of the <command>who</command> command, which gives a list of logged in users, it is possible to identify rogue or undeclared servers or programs running in the background. Looking at <filename>crontabs</filename> (tables listing automatic actions scheduled by users) will often provide interesting information on functions fulfilled by the server (a complete explanation of <command>cron</command> is available in <xref linkend=\"sect.task-scheduling-cron-atd\" />)."
+msgstr "Jika server adalah mesin Unix yang menawarkan akun shell ke pengguna, menarik untuk menentukan apakah proses dieksekusi di background tanpa pengguna. Perintah <command>ps auxw</command> menampilkan daftar semua proses dengan identitas penggunanya. Dengan memeriksa informasi ini trhadap keluaran perintah <command>who</command>, yang menampilkan daftar pengguna yang login, memungkinkan untuk mengidentifikasi server atau program yang berjalan di background secara liar. Lihat di <filename>crontabs</filename> (tabel daftar aksi otomatis terjadwal oleh pengguna) seringkali menyediakan informasi menarik pada fungsi penuh oleh server (penjelasan lengkap tentang <command>cron</command> tersedia di <xref linkend=\"sect.task-scheduling-cron-atd\" />)."
+
+msgid "In any case, it is essential to backup your servers: this allows recovery of information after the fact, when users will report specific problems due to the migration."
+msgstr "Pada beberapa kasus, penting untuk memback-up server Anda: memungkinkan pemulihan informasi setelah sesuatu dilakukan, ketika pengguna melaporkan masalah khusus disebabkan oleh migrasi."
+
+msgid "Backing up the Configuration"
+msgstr "Mem-back up Konfigurasi"
+
+#, fuzzy
+msgid "It is wise to retain the configuration of every identified service in order to be able to install the equivalent on the updated server. The bare minimum is to make a backup copy of the configuration files."
+msgstr "Bijaksana untuk memertahankan konfigurasi setiap layanan teridentifikasi agar dapat menginstall yang sesuai pada server yang diperbarui. Setidaknya cetak berkas konfigurasi dan buat backup salinannya."
+
+#, fuzzy
+msgid "For Unix machines, the configuration files are usually found in <filename>/etc/</filename>, but they may be located in a sub-directory of <filename>/usr/local/</filename>. This is the case if a program has been installed from sources, rather than with a package. In some cases, one may also find them under <filename>/opt/</filename>."
+msgstr "Untuk mesin Unix, berkas konfigurasi biasanya ditemukan di <filename>/etc/</filename>, tetap mungkin juga terletak di sub-direktori <filename>/usr/local/</filename>. Dalam hal ini program telah diinstall dari sumber, daripada dengan paket. Satu mungkin dapat ditemukan, dalam beberapa kasus, di bawah <filename>/opt/</filename>."
+
+msgid "For data managing services (such as databases), it is strongly recommended to export the data to a standard format that will be easily imported by the new software. Such a format is usually in text mode and documented; it may be, for example, an SQL dump for a database, or an LDIF file for an LDAP server."
+msgstr "Untuk mengelola layanan data (seperti basisdata), sangat direkomendasikan untuk mengekspor data ke format standar yang nantinya akan mudah diimpor oleh perangkat lunak baru. Seperti format yang biasanya berupa mode teks dan terdokumentasi; mungkin, sebagai contoh, SQL dump untuk basisdata, atau berkas LDIF untuk server LDAP."
+
+msgid "Database backups"
+msgstr "Backup basisdata"
+
+msgid "Each server software is different, and it is impossible to describe all existing cases in detail. Compare the documentation for the existing and the new software to identify the exportable (thus, re-importable) portions and those which will require manual handling. Reading this book will clarify the configuration of the main Linux server programs."
+msgstr "Setiap perangkat lunak server itu berbeda, dan tidak mungkin menjelaskan semua kasus secara detail. Bandingkan dokumentasi perangkat lunak yang ada dan yang baru apakah ada bagian yang dapat dieksport (dapat diimpor) dan yang memerlukan penanganan manual. Membaca buku ini akan menglarifikasi konfigurasi program server Linux utama."
+
+msgid "Taking Over an Existing Debian Server"
+msgstr "Mengambil Alih sebuah Server Debian yang Ada"
+
+msgid "<primary>recovering a Debian machine</primary>"
+msgstr "<primary>memulihkan mesin Debian</primary>"
+
+msgid "<primary>exploring a Debian machine</primary>"
+msgstr "<primary>mengeksplorasi mesin Debian</primary>"
+
+msgid "<primary>taking over a Debian server</primary>"
+msgstr "<primary>mengambil alih server Debian</primary>"
+
+msgid "To effectively take over its maintenance, one may analyze a machine already running with Debian."
+msgstr "Agar pengambilalihan pemeliharaan efektif, pertama analisa mesin yang sedang berjalan dengan Debian."
+
+msgid "The first file to check is <filename>/etc/debian_version</filename>, which usually contains the version number for the installed Debian system (it is part of the <emphasis>base-files</emphasis> package). If it indicates <literal><replaceable>codename</replaceable>/sid</literal>, it means that the system was updated with packages coming from one of the development distributions (either testing or unstable)."
+msgstr "Berkas pertama yang dicek ialah <filename>/etc/debian_version</filename>, yang biasanya berisi nomor versi sistem Debian yang terinstall (bagian dari paket <emphasis>base-file</emphasis>). Jika menunjukkan <literal><replaceable>codename</replaceable>/sid</literal>, itu berarti sistem telah diperbarui dengan paket dari distribusi pengembangan (entah itu testing atau unstable)."
+
+msgid "The <command>apt-show-versions</command> program (from the Debian package of the same name) checks the list of installed packages and identifies the available versions. <command>aptitude</command> can also be used for these tasks, albeit in a less systematic manner."
+msgstr "Program <command>apt-show-versions</command> (dari paket Debian dengan nama sama) periksa daftar paket terinstall dan identifikasi versi yang tersedia. <command>aptitude</command> juga dapat digunakan untuk tugas ini, albeit dengan cara yang kurang semantik."
+
+msgid "A glance at the <filename>/etc/apt/sources.list</filename> file (and <filename>/etc/apt/sources.list.d/</filename> directory) will show where the installed Debian packages likely came from. If many unknown sources appear, the administrator may choose to completely reinstall the computer's system to ensure optimal compatibility with the software provided by Debian."
+msgstr "Sekilas pada berkas <filename>/etc/apt/sources.list</filename> (dan direktori <filename>/etc/apt/sources.list.d/</filename>) akan menampilkan dari mana paket Debian terinstall. Jika ada beberapa nampak dari sumber tak diketahui, administrator mungkin memilih untuk menginstall ulang sepenuhnya sistem komputer untuk mengoptimalkan kompabilitas dengan perangkat lunak yang disediakan oleh Debian."
+
+msgid "The <filename>sources.list</filename> file is often a good indicator: the majority of administrators keep, at least in comments, the list of APT sources that were previously used. But you should not forget that sources used in the past might have been deleted, and that some random packages grabbed on the Internet might have been manually installed (with the <command>dpkg</command> command). In this case, the machine is misleading in its appearance of “standard” Debian. This is why you should pay attention to any indication that will give away the presence of external packages (appearance of <filename>deb</filename> files in unusual directories, package version numbers with a special suffix indicating that it originated from outside the Debian project, such as <literal>ubuntu</literal> or <literal>lmde</literal>, etc.)"
+msgstr "Berkas <filename>sources.list</filename> merupakan indokator yang baik: mayoritas administrator memertahankannya, setidaknya di komentar, daftar sumber APT yang digunakan sebelumnya. Namun Anda harus ingat bahwa mungkin sumber yang digunakan sebelumnya telah dihapus, dan beberapa paket yang diambil secara acak dari Internet mungkin telah diinstall secara manual (dengan perintah <command>dpkg</command>). Dalam hal ini, mesin mislead dalam tampilannya sebagai Debian “standard”. Ini alasan mengapa Anda harus memerhatikan beberapa indikasi yang akan memberikan presence pada paket eksternal (berkas <filename>deb</filename> nampak di direktori yang tak biasa, nomor versi paket dengan akhiran khusus mengindikasikan paket tersebut berasal dari luar proyek Debian, seperti <literal>ubuntu</literal> atau <literal>lmde</literal>, dll)"
+
+msgid "Likewise, it is interesting to analyze the contents of the <filename>/usr/local/</filename> directory, whose purpose is to contain programs compiled and installed manually. Listing software installed in this manner is instructive, since this raises questions on the reasons for not using the corresponding Debian package, if such a package exists."
+msgstr "Demikian pula, menarik untuk menganalisa isi dari direktori <filename>/usr/local/</filename>, yang tujuannya memang berisi program yang dicompile dan diinstall secara manual. Mendaftar perangkat lunak terinstall dengan cara ini adalah instruktif, karena ini menimbulkan pertanyaan pada alasan mengapa tidak menggunakan paket Debian yang sesuai, jika paket tersebut ada."
+
+msgid "<emphasis>QUICK LOOK</emphasis> <emphasis role=\"pkg\">cruft</emphasis>"
+msgstr "<emphasis>LIHAT SEKILAS</emphasis> <emphasis role=\"pkg\">cruft</emphasis>"
+
+msgid "The <emphasis role=\"pkg\">cruft</emphasis> package proposes to list the available files that are not owned by any package. It has some filters (more or less effective, and more or less up to date) to avoid reporting some legitimate files (files generated by Debian packages, or generated configuration files not managed by <command>dpkg</command>, etc.)."
+msgstr "Paket <emphasis role=\"pkg\">cruft</emphasis> mendaftar semua berkas yang tidak dimiliki oleh paket manapun. Memiliki beberapa filter (lebih atau kurang efektif, dan lebih atau kurang up-to-date) menghindari beberapa laporan legitimasi berkas (berkas yang digenerate ooleh paket Debian, atau berkas konfigurasi yang digenerate tidak diatur oleh <command>dpkg</command>, dll.)."
+
+msgid "Be careful to not blindly delete everything that <command>cruft</command> might list!"
+msgstr "Berhati-hatilan untuk tidak menghapus sembarangan apapun yang mungkin didaftar oleh <command>cruft</command>!"
+
+msgid "Installing Debian"
+msgstr "Menginstall Debian"
+
+msgid "Once all the required information on the current server is known, we can shut it down and begin to install Debian on it."
+msgstr "Setelah seluruh informasi yang diperlukan pada server tersebut diketahui, kita dapat mematikannya dan mulai menginstall Debian."
+
+msgid "<primary>architecture</primary>"
+msgstr "<primary>arsitektur</primary>"
+
+msgid "To choose the appropriate version, we must know the computer's architecture. If it is a reasonably recent PC, it is most likely to be amd64 (older PCs were usually i386). In other cases, we can narrow down the possibilities according to the previously used system."
+msgstr "Untuk memilih versi yang sesuai, kita harut tahu arsitektur komputernya. Jika merupakan PC terkini, sepertinya amd64 (PC lawas biasanya i386). Dalam kasus lain, kita dapat memersempit kemungkinan menurut sistem yang sebelumnya digunakan."
+
+msgid "<xref linkend=\"tab-corresp\" xrefstyle=\"select: label nopage\" /> is not intended to be exhaustive, but may be helpful. In any case, the original documentation for the computer is the most reliable source to find this information."
+msgstr "<xref linkend=\"tab-corresp\" xrefstyle=\"select: label nopage\" /> tidak dimaksudkan lengkap, tapi mungkin membantu. Dalam beberapa kasus, dokumentasi asli komputer merupakan sumber yang reliable untuk menemukan informasi ini."
+
+msgid "Matching operating system and architecture"
+msgstr "Sistem operasi dan arsitektur yang sesuai"
+
+msgid "Operating System"
+msgstr "Sistem Operasi"
+
+msgid "Architecture(s)"
+msgstr "Arsitektur"
+
+msgid "DEC Unix (OSF/1)"
+msgstr "DEC Unix (OSF/1)"
+
+msgid "alpha, mipsel"
+msgstr "alpha, mipsel"
+
+msgid "HP Unix"
+msgstr "HP Unix"
+
+msgid "ia64, hppa"
+msgstr "ia64, hppa"
+
+msgid "IBM AIX"
+msgstr "IBM AIX"
+
+msgid "powerpc"
+msgstr "powerpc"
+
+msgid "Irix"
+msgstr "Irix"
+
+msgid "mips"
+msgstr "mips"
+
+msgid "OS X"
+msgstr ""
+
+#, fuzzy
+#| msgid "amd64, powerpc, i386, m68k"
+msgid "amd64, powerpc, i386"
+msgstr "amd64, powerpc, i386, m68k"
+
+msgid "z/OS, MVS"
+msgstr "z/OS, MVS"
+
+msgid "s390x, s390"
+msgstr "s390x, s390"
+
+msgid "Solaris, SunOS"
+msgstr "Solaris, SunOS"
+
+msgid "sparc, i386, m68k"
+msgstr "sparc, i386, m68k"
+
+msgid "Ultrix"
+msgstr "Ultrix"
+
+msgid "VMS"
+msgstr "VMS"
+
+msgid "alpha"
+msgstr "alpha"
+
+msgid "Windows 95/98/ME"
+msgstr "Windows 95/98/ME"
+
+msgid "i386"
+msgstr "i386"
+
+msgid "Windows NT/2000"
+msgstr "Windows NT/2000"
+
+msgid "i386, alpha, ia64, mipsel"
+msgstr "i386, alpha, ia64, mipsel"
+
+msgid "Windows XP / Windows Server 2008"
+msgstr "Windows XP / Windows Server 2008"
+
+msgid "i386, amd64, ia64"
+msgstr "i386, amd64, ia64"
+
+msgid "Windows Vista / Windows 7 / Windows 8"
+msgstr "Windows Vista / Windows 7 / Windows 8"
+
+msgid "i386, amd64"
+msgstr "i386, amd64"
+
+msgid "<emphasis>HARDWARE</emphasis> 64 bit PC vs 32 bit PC"
+msgstr "<emphasis>PERANGKAT KERAS</emphasis> 64 bit PC vs 32 bit PC"
+
+msgid "<primary>amd64</primary>"
+msgstr "<primary>amd64</primary>"
+
+msgid "<primary>i386</primary>"
+msgstr "<primary>i386</primary>"
+
+msgid "Most recent computers have 64 bit Intel or AMD processors, compatible with older 32 bit processors; the software compiled for “i386” architecture thus works. On the other hand, this compatibility mode does not fully exploit the capabilities of these new processors. This is why Debian provides the “amd64” architecture, which works for recent AMD chips as well as Intel “em64t” processors (including most of the Core series), which are very similar to AMD64."
+msgstr "Kebanyakan komputer terkini memiliki 64 bit Intel atau prosesor AMD, cocok dengan prosesor 32 bit yang lebih lama; perangkat lunak yang dicompile untuk arsitektur “i386” yang bekerja. Selain itu, kecocokan ini tidak secara penuh mengeksplor kemampuan prosesor baru ini. Ini alasan mengapa Debian menyediakan arsitektur “amd64”, yang bekerja untuk chip AMD terkini sebagaimana prosesor Intel “em64t” (termasuk kebanyakan series Core), yang sangat sesuai dengan AMD64"
+
+msgid "Installing and Configuring the Selected Services"
+msgstr "Menginstall dan Mengonfigurasi Layanan Terpilih"
+
+#, fuzzy
+#| msgid "Once Debian is installed, we must install and configure one by one all of the services that this computer must host. The new configuration must take into consideration the prior one in order to ensure a smooth transition. All the information collected in the first two steps are useful to successfully complete this part."
+msgid "Once Debian is installed, we must install and configure one by one all of the services that this computer must host. The new configuration must take into consideration the prior one in order to ensure a smooth transition. All the information collected in the first two steps will be useful to successfully complete this part."
+msgstr "Setelah Debian terinstall, kita harus menginstall dan mengonfigurasi satu per satu semua layanan yang komputer tersebut harus sajikan. Konfigurasi baru Konfigurasi baru harus memertimbangkan yang utama untuk memastikan transisi yang lembut. Seluruh informasi yang dikumpulkan pada kedua langkah sebelumnya berguna untuk menyelesaikan bagian ini."
+
+msgid "Install the selected services"
+msgstr "Install layanan terpilih"
+
+#, fuzzy
+#| msgid "Prior to jumping in to this exercise with both feet, it is strongly recommended that you read the remainder of this book. After that you will have a more precise understanding of how to configure the expected services."
+msgid "Prior to jumping into this exercise with both feet, it is strongly recommended that you read the remainder of this book. After that you will have a more precise understanding of how to configure the expected services."
+msgstr "Sebelum melompat ke latihan ini dengan dua kaki, sangat disarankan Anda membaca peringatan pada buku ini. Setelah itu Anda akan lebih memahami bagaimana mengonfigurasi layanan yang diharapkan."
+
+#~ msgid "MacOS"
+#~ msgstr "MacOS"

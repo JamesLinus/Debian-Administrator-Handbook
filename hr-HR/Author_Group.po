@@ -1,0 +1,26 @@
+#
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2015-09-09 18:47+0200\n"
+"PO-Revision-Date: 2012-10-31T14:54:18\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: None\n"
+"Language: hr-HR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-publican; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Raphaël"
+msgstr ""
+
+msgid "Hertzog"
+msgstr ""
+
+msgid "Roland"
+msgstr ""
+
+msgid "Mas"
+msgstr ""
